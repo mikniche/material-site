@@ -1,6 +1,0 @@
-testing commit add and sync file
-changes to file
-change the third
-change fourth
-change fifth
-more commits
