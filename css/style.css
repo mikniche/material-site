@@ -1,0 +1,40 @@
+.logo-bg-hc {
+	background-image:url('../images/logo.png');
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position: 0 5px;
+}
+.hc-logo-text {
+ 	padding-left: 50px;
+}
+/*@media only screen and (max-width : 675px) {
+    nav .brand-logo {
+        font-size: 1.8rem !important;
+    }
+}*/
+@media only screen and (max-width : 595px) {
+    nav .brand-logo {
+        font-size: 1.6rem !important;
+    }
+}
+@media only screen and (max-width : 540px) {
+    nav .brand-logo {
+        font-size: 1.4rem !important;
+    }
+}
+@media only screen and (max-width : 490px) {
+    nav .logo-bg-hc {
+        background: none;
+    }
+    nav .hc-logo-text {
+ 		padding-left: 0px;
+	}
+    nav .brand-logo {
+        font-size: 1.2rem !important;
+    }
+}
+@media only screen and (max-width : 430px) {
+    nav .brand-logo {
+        font-size: 1.1rem !important;
+    }
+}
